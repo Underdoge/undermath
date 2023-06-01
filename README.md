@@ -4,7 +4,7 @@ Este paquete contiene módulos para realizar cálculos aritméticos y estadísti
 
 Uso como script
 
-    python3 main.py <operación> <operandos>
+    python3 main.py <operación> <operandos separados por espacios>
 
     Operaciones aritméticas soportadas:
         -sum, --sumar :         Suma dos o más operandos de tipo int o float separados por espacios.
