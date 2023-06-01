@@ -1,6 +1,6 @@
 Undermath
 
-Este paquete contiene módulos para realizar cálculos aritméticos y estadísticos sensillos.
+Este paquete contiene módulos para realizar cálculos aritméticos y estadísticos sencillos.
 
 Uso como script
 
