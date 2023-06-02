@@ -7,6 +7,7 @@ Uso como script
     python3 main.py <operación> <operandos separados por espacios>
 
     Operaciones aritméticas soportadas:
+
         -sum, --sumar
             Suma dos o más operandos de tipo int o float separados por espacios.
 
@@ -20,6 +21,7 @@ Uso como script
             Divide el primer operando entre el segundo.
 
     Funciones estadísticas soportadas:
+
         -med, --media
             Obtiene la media de una lista de elementos enteros o flotantes separados por espacios.
 

@@ -8,7 +8,7 @@ except (IOError, ImportError):
 
 setup(
     name='undermath',
-    version='1.0.8',
+    version='1.0.9',
     description='Este paquete contiene módulos para realizar cálculos aritméticos y estadísticos sencillos.',
     long_description=long_description,
     author='Underdoge',
