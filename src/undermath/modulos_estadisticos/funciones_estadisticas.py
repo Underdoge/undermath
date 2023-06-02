@@ -174,3 +174,8 @@ la desviación estandar poblacional.
 {(sum((float(x)-(sum(valores) / len(valores)))**2 for x in valores) / (len(valores)))**0.5}")
     else:
         print("Únicamente puedes usar números enteros o flotantes.")
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

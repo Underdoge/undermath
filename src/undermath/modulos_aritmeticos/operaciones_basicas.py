@@ -136,3 +136,8 @@ o flotantes.
         return
     if isinstance(division, float):
         print(f"Resultado de la división: {division}")
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)
