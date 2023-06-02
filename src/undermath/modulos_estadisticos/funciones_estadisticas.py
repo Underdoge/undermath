@@ -15,10 +15,12 @@ pueden convertir a flotante.
 convertir.
 
     Ejemplos de uso:
+
     >>> validar_entrada(["1", "2", "3"])
     [1.0, 2.0, 3.0]
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> validar_entrada([1, "t"])
     False
     """
@@ -44,10 +46,12 @@ la media o promedio.
         str: "La media es: <resultado>".
 
     Ejemplos de uso:
+
     >>> media(["1", "2", "3"])
     La media es: 2.0
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> media([1, "t", 3, 4])
     Únicamente puedes usar números enteros o flotantes.
     """
@@ -76,10 +80,12 @@ la mediana.
         str: "La mediana es: <resultado>".
 
     Ejemplos de uso:
+
     >>> mediana(["1", "2", "3"])
     La mediana es: 2.0
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> mediana([1, "t", 3, 4])
     Únicamente puedes usar números enteros o flotantes.
     """
@@ -106,10 +112,12 @@ la moda.
         str: "La moda es: <resultado>".
 
     Ejemplos de uso:
+
     >>> moda(["5", "3", "1", "4", "4", "2"])
     La moda es: 4
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> moda([1, "t", 3, 4])
     Únicamente puedes usar números enteros o flotantes.
     """
@@ -132,10 +140,12 @@ la desviación estándar muestral.
         str: "La desviación estándar muestral es: <resultado>".
 
     Ejemplos de uso:
+
     >>> desviacion_estándar_muestral(["5", "3", "1", "4", "4", "2"])
     La desviación estándar muestral es: 1.4719601443879744
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> desviacion_estándar_muestral([1, "t", 3, 4])
     Únicamente puedes usar números enteros o flotantes.
     """
@@ -160,10 +170,12 @@ la desviación estándar poblacional.
         str: "La desviación estándar poblacional es: <resultado>".
 
     Ejemplos de uso:
+
     >>> desviacion_estándar_poblacional(["5", "3", "1", "4", "4", "2"])
     La desviación estándar poblacional es: 1.3437096247164249
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> desviacion_estándar_poblacional([1, "t", 3, 4])
     Únicamente puedes usar números enteros o flotantes.
     """

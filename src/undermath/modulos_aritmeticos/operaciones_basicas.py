@@ -12,10 +12,12 @@ def sumar(valores: List = []):
         float: La suma de los valores en la lista.
 
     Ejemplos de uso:
+
     >>> sumar([1, 2, 3])
     Resultado de la suma: 6.0
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> sumar([1, "t"])
     Únicamente puedes sumar números enteros o flotantes.
     """
@@ -43,10 +45,12 @@ def restar(valores: List = []):
         float: La resta del primer valor menos el segundo.
 
     Ejemplos de uso:
+
     >>> restar([2, 1])
     Resultado de la resta: 1.0
 
-    Error: solo se pueden usar enteros o flotanes.
+    Ejemplo de error:
+
     >>> restar([1, "t"])
     Únicamente puedes restar números enteros o flotantes.
     """
@@ -74,6 +78,7 @@ def multiplicar(valores: List = []):
         float: La multiplicación de los valores en la lista.
 
     Ejemplos de uso:
+
     >>> multiplicar([3, 6])
     Resultado de la multiplicacion: 18.0
 
@@ -81,6 +86,7 @@ def multiplicar(valores: List = []):
     Resultado de la multiplicacion: 0.0
 
     Ejemplo de error:
+
     >>> multiplicar([1, "t"])
     Únicamente puedes multiplicar números enteros o flotantes.
     """
@@ -110,6 +116,7 @@ o flotantes.
         float: La división del primer valor entre el segundo.
 
     Ejemplos de uso:
+
     >>> dividir([6, 2])
     Resultado de la división: 3.0
 
@@ -117,6 +124,7 @@ o flotantes.
     Resultado de la división: 0.0
 
     Ejemplos de error:
+
     >>> dividir([10, 0])
     No puedes dividir entre cero.
 

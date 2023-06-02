@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>undermath.modulos_estadisticos package &#8212; Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.0 documentation</title>
+    <title>undermath.modulos_estadisticos package &#8212; Undermath - Clase 4 Bootcamp Python Avanzado - Código Facilito 1.1.1 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/classic.css" />
     
@@ -25,7 +25,7 @@
         <li class="right" >
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Undermath - Clase 4 Bootcamp Python Avanzado - Código Facilito 1.1.1 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">undermath.modulos_estadisticos package</a></li> 
       </ul>
     </div>  
@@ -52,12 +52,16 @@
 <dt>Regresa:</dt><dd><p>str: “La desviación estándar muestral es: &lt;resultado&gt;”.</p>
 </dd>
 </dl>
-<p>Ejemplos de uso:
-&gt;&gt;&gt; desviacion_estándar_muestral([“5”, “3”, “1”, “4”, “4”, “2”])
-La desviación estándar muestral es: 1.4719601443879744</p>
-<p>Error: solo se pueden usar enteros o flotanes.
-&gt;&gt;&gt; desviacion_estándar_muestral([1, “t”, 3, 4])
-Únicamente puedes usar números enteros o flotantes.</p>
+<p>Ejemplos de uso:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">desviacion_estándar_muestral</span><span class="p">([</span><span class="s2">&quot;5&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">])</span>
+<span class="go">La desviación estándar muestral es: 1.4719601443879744</span>
+</pre></div>
+</div>
+<p>Ejemplo de error:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">desviacion_estándar_muestral</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;t&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="go">Únicamente puedes usar números enteros o flotantes.</span>
+</pre></div>
+</div>
 </dd></dl>
 
 <dl class="py function">
@@ -70,12 +74,16 @@ La desviación estándar muestral es: 1.4719601443879744</p>
 <dt>Regresa:</dt><dd><p>str: “La desviación estándar poblacional es: &lt;resultado&gt;”.</p>
 </dd>
 </dl>
-<p>Ejemplos de uso:
-&gt;&gt;&gt; desviacion_estándar_poblacional([“5”, “3”, “1”, “4”, “4”, “2”])
-La desviación estándar poblacional es: 1.3437096247164249</p>
-<p>Error: solo se pueden usar enteros o flotanes.
-&gt;&gt;&gt; desviacion_estándar_poblacional([1, “t”, 3, 4])
-Únicamente puedes usar números enteros o flotantes.</p>
+<p>Ejemplos de uso:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">desviacion_estándar_poblacional</span><span class="p">([</span><span class="s2">&quot;5&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">])</span>
+<span class="go">La desviación estándar poblacional es: 1.3437096247164249</span>
+</pre></div>
+</div>
+<p>Ejemplo de error:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">desviacion_estándar_poblacional</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;t&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="go">Únicamente puedes usar números enteros o flotantes.</span>
+</pre></div>
+</div>
 </dd></dl>
 
 <dl class="py function">
@@ -88,12 +96,16 @@ La desviación estándar poblacional es: 1.3437096247164249</p>
 <dt>Regresa:</dt><dd><p>str: “La media es: &lt;resultado&gt;”.</p>
 </dd>
 </dl>
-<p>Ejemplos de uso:
-&gt;&gt;&gt; media([“1”, “2”, “3”])
-La media es: 2.0</p>
-<p>Error: solo se pueden usar enteros o flotanes.
-&gt;&gt;&gt; media([1, “t”, 3, 4])
-Únicamente puedes usar números enteros o flotantes.</p>
+<p>Ejemplos de uso:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">media</span><span class="p">([</span><span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">])</span>
+<span class="go">La media es: 2.0</span>
+</pre></div>
+</div>
+<p>Ejemplo de error:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">media</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;t&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="go">Únicamente puedes usar números enteros o flotantes.</span>
+</pre></div>
+</div>
 </dd></dl>
 
 <dl class="py function">
@@ -106,12 +118,16 @@ La media es: 2.0</p>
 <dt>Regresa:</dt><dd><p>str: “La mediana es: &lt;resultado&gt;”.</p>
 </dd>
 </dl>
-<p>Ejemplos de uso:
-&gt;&gt;&gt; mediana([“1”, “2”, “3”])
-La mediana es: 2.0</p>
-<p>Error: solo se pueden usar enteros o flotanes.
-&gt;&gt;&gt; mediana([1, “t”, 3, 4])
-Únicamente puedes usar números enteros o flotantes.</p>
+<p>Ejemplos de uso:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">mediana</span><span class="p">([</span><span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">])</span>
+<span class="go">La mediana es: 2.0</span>
+</pre></div>
+</div>
+<p>Ejemplo de error:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">mediana</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;t&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="go">Únicamente puedes usar números enteros o flotantes.</span>
+</pre></div>
+</div>
 </dd></dl>
 
 <dl class="py function">
@@ -124,12 +140,16 @@ La mediana es: 2.0</p>
 <dt>Regresa:</dt><dd><p>str: “La moda es: &lt;resultado&gt;”.</p>
 </dd>
 </dl>
-<p>Ejemplos de uso:
-&gt;&gt;&gt; moda([“5”, “3”, “1”, “4”, “4”, “2”])
-La moda es: 4</p>
-<p>Error: solo se pueden usar enteros o flotanes.
-&gt;&gt;&gt; moda([1, “t”, 3, 4])
-Únicamente puedes usar números enteros o flotantes.</p>
+<p>Ejemplos de uso:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">moda</span><span class="p">([</span><span class="s2">&quot;5&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">])</span>
+<span class="go">La moda es: 4</span>
+</pre></div>
+</div>
+<p>Ejemplo de error:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">moda</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;t&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="go">Únicamente puedes usar números enteros o flotantes.</span>
+</pre></div>
+</div>
 </dd></dl>
 
 <dl class="py function">
@@ -143,12 +163,16 @@ La moda es: 4</p>
 False (Bool): si no todos los valores de la lista se pudieron convertir.</p>
 </dd>
 </dl>
-<p>Ejemplos de uso:
-&gt;&gt;&gt; validar_entrada([“1”, “2”, “3”])
-[1.0, 2.0, 3.0]</p>
-<p>Error: solo se pueden usar enteros o flotanes.
-&gt;&gt;&gt; validar_entrada([1, “t”])
-False</p>
+<p>Ejemplos de uso:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">validar_entrada</span><span class="p">([</span><span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">])</span>
+<span class="go">[1.0, 2.0, 3.0]</span>
+</pre></div>
+</div>
+<p>Ejemplo de error:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">validar_entrada</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;t&quot;</span><span class="p">])</span>
+<span class="go">False</span>
+</pre></div>
+</div>
 </dd></dl>
 
 </section>
@@ -217,7 +241,7 @@ estándar muestral y poblacional.</p>
         <li class="right" >
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Undermath - Clase 4 Bootcamp Python Avanzado - Código Facilito 1.1.1 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">undermath.modulos_estadisticos package</a></li> 
       </ul>
     </div>

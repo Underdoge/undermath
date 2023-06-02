@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>undermath.modulos_estadisticos.funciones_estadisticas &#8212; Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.0 documentation</title>
+    <title>undermath.modulos_estadisticos.funciones_estadisticas &#8212; Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.1 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/classic.css" />
     
@@ -24,7 +24,7 @@
         <li class="right" >
           <a href="../../../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../../index.html">Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.1 documentation</a> &#187;</li>
           <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">undermath.modulos_estadisticos.funciones_estadisticas</a></li> 
       </ul>
@@ -53,10 +53,12 @@
 <span class="sd">convertir.</span>
 
 <span class="sd">    Ejemplos de uso:</span>
+
 <span class="sd">    &gt;&gt;&gt; validar_entrada([&quot;1&quot;, &quot;2&quot;, &quot;3&quot;])</span>
 <span class="sd">    [1.0, 2.0, 3.0]</span>
 
-<span class="sd">    Error: solo se pueden usar enteros o flotanes.</span>
+<span class="sd">    Ejemplo de error:</span>
+
 <span class="sd">    &gt;&gt;&gt; validar_entrada([1, &quot;t&quot;])</span>
 <span class="sd">    False</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -82,10 +84,12 @@
 <span class="sd">        str: &quot;La media es: &lt;resultado&gt;&quot;.</span>
 
 <span class="sd">    Ejemplos de uso:</span>
+
 <span class="sd">    &gt;&gt;&gt; media([&quot;1&quot;, &quot;2&quot;, &quot;3&quot;])</span>
 <span class="sd">    La media es: 2.0</span>
 
-<span class="sd">    Error: solo se pueden usar enteros o flotanes.</span>
+<span class="sd">    Ejemplo de error:</span>
+
 <span class="sd">    &gt;&gt;&gt; media([1, &quot;t&quot;, 3, 4])</span>
 <span class="sd">    Únicamente puedes usar números enteros o flotantes.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -114,10 +118,12 @@
 <span class="sd">        str: &quot;La mediana es: &lt;resultado&gt;&quot;.</span>
 
 <span class="sd">    Ejemplos de uso:</span>
+
 <span class="sd">    &gt;&gt;&gt; mediana([&quot;1&quot;, &quot;2&quot;, &quot;3&quot;])</span>
 <span class="sd">    La mediana es: 2.0</span>
 
-<span class="sd">    Error: solo se pueden usar enteros o flotanes.</span>
+<span class="sd">    Ejemplo de error:</span>
+
 <span class="sd">    &gt;&gt;&gt; mediana([1, &quot;t&quot;, 3, 4])</span>
 <span class="sd">    Únicamente puedes usar números enteros o flotantes.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -144,10 +150,12 @@
 <span class="sd">        str: &quot;La moda es: &lt;resultado&gt;&quot;.</span>
 
 <span class="sd">    Ejemplos de uso:</span>
+
 <span class="sd">    &gt;&gt;&gt; moda([&quot;5&quot;, &quot;3&quot;, &quot;1&quot;, &quot;4&quot;, &quot;4&quot;, &quot;2&quot;])</span>
 <span class="sd">    La moda es: 4</span>
 
-<span class="sd">    Error: solo se pueden usar enteros o flotanes.</span>
+<span class="sd">    Ejemplo de error:</span>
+
 <span class="sd">    &gt;&gt;&gt; moda([1, &quot;t&quot;, 3, 4])</span>
 <span class="sd">    Únicamente puedes usar números enteros o flotantes.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -170,10 +178,12 @@
 <span class="sd">        str: &quot;La desviación estándar muestral es: &lt;resultado&gt;&quot;.</span>
 
 <span class="sd">    Ejemplos de uso:</span>
+
 <span class="sd">    &gt;&gt;&gt; desviacion_estándar_muestral([&quot;5&quot;, &quot;3&quot;, &quot;1&quot;, &quot;4&quot;, &quot;4&quot;, &quot;2&quot;])</span>
 <span class="sd">    La desviación estándar muestral es: 1.4719601443879744</span>
 
-<span class="sd">    Error: solo se pueden usar enteros o flotanes.</span>
+<span class="sd">    Ejemplo de error:</span>
+
 <span class="sd">    &gt;&gt;&gt; desviacion_estándar_muestral([1, &quot;t&quot;, 3, 4])</span>
 <span class="sd">    Únicamente puedes usar números enteros o flotantes.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -198,10 +208,12 @@
 <span class="sd">        str: &quot;La desviación estándar poblacional es: &lt;resultado&gt;&quot;.</span>
 
 <span class="sd">    Ejemplos de uso:</span>
+
 <span class="sd">    &gt;&gt;&gt; desviacion_estándar_poblacional([&quot;5&quot;, &quot;3&quot;, &quot;1&quot;, &quot;4&quot;, &quot;4&quot;, &quot;2&quot;])</span>
 <span class="sd">    La desviación estándar poblacional es: 1.3437096247164249</span>
 
-<span class="sd">    Error: solo se pueden usar enteros o flotanes.</span>
+<span class="sd">    Ejemplo de error:</span>
+
 <span class="sd">    &gt;&gt;&gt; desviacion_estándar_poblacional([1, &quot;t&quot;, 3, 4])</span>
 <span class="sd">    Únicamente puedes usar números enteros o flotantes.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -248,7 +260,7 @@
         <li class="right" >
           <a href="../../../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../../index.html">Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito 1.1.1 documentation</a> &#187;</li>
           <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">undermath.modulos_estadisticos.funciones_estadisticas</a></li> 
       </ul>

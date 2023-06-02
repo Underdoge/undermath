@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Undermath - Clase 5 Bootcamp Python Avanzado - Código Facilito'
+project = 'Undermath - Clase 4 Bootcamp Python Avanzado - Código Facilito'
 copyright = '2023, Underdoge'
 author = 'Underdoge (Eduardo Chapa)'
-release = '1.1.0'
+release = '1.1.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
