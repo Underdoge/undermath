@@ -1,4 +1,4 @@
-""" Módulo principal del paquete undermath """
+""" Módulo para realizar operaciones aritméticas y funciones estadísticas. """
 
 import argparse
 from modulos_aritmeticos.operaciones_basicas import *
