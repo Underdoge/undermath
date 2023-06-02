@@ -7,25 +7,29 @@ Uso como script
     python3 main.py <operación> <operandos separados por espacios>
 
     Operaciones aritméticas soportadas:
-        -sum, --sumar :         Suma dos o más operandos de tipo int o float separados por espacios.
+        -sum, --sumar
+            Suma dos o más operandos de tipo int o float separados por espacios.
 
-        -dif, --restar:         Resta al primer operando el segundo.
+        -dif, --restar
+            Resta al primer operando el segundo.
 
-        -mult, --multiplicar:   Multiplica dos o más operandos de tipo int o float.
+        -mult, --multiplicar
+            Multiplica dos o más operandos de tipo int o float.
 
-        -div, --dividir:        Divide el primer operando entre el segundo.
+        -div, --dividir
+            Divide el primer operando entre el segundo.
 
     Funciones estadísticas soportadas:
-        -med, --media:
+        -med, --media
             Obtiene la media de una lista de elementos enteros o flotantes separados por espacios.
 
-        -mdn, --mediana:
+        -mdn, --mediana
             Obtiene la mediana de una lista de elementos enteros o flotantes separados por espacios.
 
-        -mod, --moda:
+        -mod, --moda
             Obtiene la moda de una lista de elementos enteros o flotantes separados por espacios.
 
-        -dsm,--desviacion-estandar-muestral:
+        -dsm,--desviacion-estandar-muestral
             Obtiene la desviación estándar muestral de una lista de elementos enteros o flotantes separados por espacios.
 
         -dsp, --desviacion-estandar-poblacional
