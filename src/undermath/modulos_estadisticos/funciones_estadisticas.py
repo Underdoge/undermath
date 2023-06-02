@@ -1,7 +1,4 @@
 def validar_entrada(valores=[]):
-    """ Recorre la lista y valida que todos los valores se puedan \
-convertir a flotante y si no arroja una excepción. """
-
     lista_flotantes = []
     for valor in valores:
         try:
