@@ -8,8 +8,11 @@ Uso como script
 
     Operaciones aritméticas soportadas:
         -sum, --sumar :         Suma dos o más operandos de tipo int o float separados por espacios.
+
         -dif, --restar:         Resta al primer operando el segundo.
+
         -mult, --multiplicar:   Multiplica dos o más operandos de tipo int o float.
+
         -div, --dividir:        Divide el primer operando entre el segundo.
 
     Funciones estadísticas soportadas:
