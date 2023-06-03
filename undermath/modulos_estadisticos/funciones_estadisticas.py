@@ -128,7 +128,7 @@ la moda.
         print("Únicamente puedes usar números enteros o flotantes.")
 
 
-def desviacion_estándar_muestral(valores: List = []):
+def desviacion_estandar_muestral(valores: List = []):
     """
     Esta función acepta una lista con enteros o flotantes y obtiene \
 la desviación estándar muestral.
@@ -141,12 +141,12 @@ la desviación estándar muestral.
 
     Ejemplos de uso:
 
-    >>> desviacion_estándar_muestral(["5", "3", "1", "4", "4", "2"])
+    >>> desviacion_estandar_muestral(["5", "3", "1", "4", "4", "2"])
     La desviación estándar muestral es: 1.4719601443879744
 
     Ejemplo de error:
 
-    >>> desviacion_estándar_muestral([1, "t", 3, 4])
+    >>> desviacion_estandar_muestral([1, "t", 3, 4])
     Únicamente puedes usar números enteros o flotantes.
     """
 
@@ -158,7 +158,7 @@ la desviación estándar muestral.
         print("Únicamente puedes usar números enteros o flotantes.")
 
 
-def desviacion_estándar_poblacional(valores: List = []):
+def desviacion_estandar_poblacional(valores: List = []):
     """
     Esta función acepta una lista con enteros o flotantes y obtiene \
 la desviación estándar poblacional.
@@ -171,12 +171,12 @@ la desviación estándar poblacional.
 
     Ejemplos de uso:
 
-    >>> desviacion_estándar_poblacional(["5", "3", "1", "4", "4", "2"])
+    >>> desviacion_estandar_poblacional(["5", "3", "1", "4", "4", "2"])
     La desviación estándar poblacional es: 1.3437096247164249
 
     Ejemplo de error:
 
-    >>> desviacion_estándar_poblacional([1, "t", 3, 4])
+    >>> desviacion_estandar_poblacional([1, "t", 3, 4])
     Únicamente puedes usar números enteros o flotantes.
     """
 
