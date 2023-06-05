@@ -16,7 +16,6 @@ Module contents
 ---------------
 
 .. automodule:: undermath.modulos_aritmeticos
-   :reversed:
    :members:
    :undoc-members:
    :show-inheritance:
