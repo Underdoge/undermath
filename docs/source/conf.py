@@ -9,7 +9,7 @@
 project = 'Undermath - Clase 4 Bootcamp Python Avanzado - Código Facilito'
 copyright = '2023, Underdoge (Eduardo Chapa)'
 author = 'Underdoge (Eduardo Chapa)'
-release = '1.1.2'
+release = '1.1.3'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
